@@ -1,0 +1,113 @@
+{
+  "name": "Abhay",
+  "streak": 12,
+  "completedDays": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
+  "progress": 12,
+  "totalDays": 60,
+  "rank": 245,
+  "xp": 1280,
+  "badges": [
+    {
+      "id": "consistency-hero",
+      "name": "Consistency Hero",
+      "description": "Maintain a 7-day coding streak.",
+      "icon": "Flame",
+      "color": "from-orange-500 to-red-500",
+      "unlockedAt": "Day 7"
+    },
+    {
+      "id": "night-owl",
+      "name": "Night Owl",
+      "description": "Submit a challenge after 11:00 PM.",
+      "icon": "Moon",
+      "color": "from-indigo-500 to-purple-600",
+      "unlockedAt": "Day 4"
+    },
+    {
+      "id": "fast-learner",
+      "name": "Fast Learner",
+      "description": "Complete a challenge in record time.",
+      "icon": "Zap",
+      "color": "from-cyan-400 to-blue-500",
+      "unlockedAt": "Day 9"
+    }
+  ],
+  "allAvailableBadges": [
+    {
+      "id": "consistency-hero",
+      "name": "Consistency Hero",
+      "description": "Maintain a 7-day coding streak.",
+      "icon": "Flame",
+      "color": "from-orange-500 to-red-500"
+    },
+    {
+      "id": "night-owl",
+      "name": "Night Owl",
+      "description": "Submit a challenge after 11:00 PM.",
+      "icon": "Moon",
+      "color": "from-indigo-500 to-purple-600"
+    },
+    {
+      "id": "fast-learner",
+      "name": "Fast Learner",
+      "description": "Complete a challenge in record time.",
+      "icon": "Zap",
+      "color": "from-cyan-400 to-blue-500"
+    },
+    {
+      "id": "open-source-guru",
+      "name": "OSS Guru",
+      "description": "Contribute to a public open-source repo.",
+      "icon": "Github",
+      "color": "from-emerald-400 to-teal-600"
+    },
+    {
+      "id": "social-evangelist",
+      "name": "LinkedIn Star",
+      "description": "Share your coding progress for 30 days straight.",
+      "icon": "Share2",
+      "color": "from-blue-500 to-sky-600"
+    },
+    {
+      "id": "ninja-coder",
+      "name": "Streak Master",
+      "description": "Complete all 60 days of the challenge.",
+      "icon": "Award",
+      "color": "from-yellow-400 to-amber-500"
+    }
+  ],
+  "recentActivity": [
+    {
+      "type": "commit",
+      "title": "GitHub Commit",
+      "detail": "Feat: Add weather search and API call",
+      "time": "Today, 8:45 PM"
+    },
+    {
+      "type": "linkedin",
+      "title": "LinkedIn Post",
+      "detail": "Shared Day 12 progress: Built Weather Dashboard!",
+      "time": "Today, 9:02 PM"
+    },
+    {
+      "type": "reflection",
+      "title": "Daily Reflection",
+      "detail": "Felt good integrating the OpenWeather API. Handling async states and loading indicator was a bit tricky but Tailwind transition classes made it look sleek!",
+      "time": "Today, 9:15 PM"
+    }
+  ],
+  "quotes": [
+    {
+      "text": "Consistency is not about being perfect. It is about showing up, day after day, even when it is hard.",
+      "author": "James Clear"
+    },
+    {
+      "text": "The secret of getting ahead is getting started. Keep building, one commit at a time.",
+      "author": "Mark Twain"
+    },
+    {
+      "text": "Every line of code you write today is an investment in the developer you will become tomorrow.",
+      "author": "ABTalks Team"
+    }
+  ]
+}

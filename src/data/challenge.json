@@ -1,0 +1,128 @@
+{
+  "challenges": [
+    {
+      "day": 1,
+      "title": "GitHub Profile & Readme",
+      "difficulty": "Easy",
+      "estimatedTime": "1 Hour",
+      "objective": "Set up your developer identity on GitHub and customize your profile README to showcase your skill stack."
+    },
+    {
+      "day": 2,
+      "title": "Responsive Personal Website",
+      "difficulty": "Easy",
+      "estimatedTime": "2 Hours",
+      "objective": "Build a clean, semantic HTML/CSS portfolio landing page optimized for mobile screens."
+    },
+    {
+      "day": 3,
+      "title": "JavaScript Simple Calculator",
+      "difficulty": "Easy",
+      "estimatedTime": "1.5 Hours",
+      "objective": "Create a fully functional web calculator focusing on DOM manipulation and keyboard event handling."
+    },
+    {
+      "day": 4,
+      "title": "Theme Toggler component",
+      "difficulty": "Easy",
+      "estimatedTime": "1 Hour",
+      "objective": "Develop a lightweight toggle component that updates local storage and swaps CSS variables."
+    },
+    {
+      "day": 5,
+      "title": "Interactive Quiz App",
+      "difficulty": "Easy",
+      "estimatedTime": "2.5 Hours",
+      "objective": "Build a quiz game using local storage to track highest scores and dynamically transition questions."
+    },
+    {
+      "day": 6,
+      "title": "Dynamic Kanban Board",
+      "difficulty": "Medium",
+      "estimatedTime": "3 Hours",
+      "objective": "Implement a simple drag-and-drop board to manage coding tasks, saving state locally."
+    },
+    {
+      "day": 7,
+      "title": "Password Strength Validator",
+      "difficulty": "Easy",
+      "estimatedTime": "1 Hour",
+      "objective": "Create a password validation component using regular expressions and dynamic strength bars."
+    },
+    {
+      "day": 8,
+      "title": "GitHub Repositories Search",
+      "difficulty": "Medium",
+      "estimatedTime": "2 Hours",
+      "objective": "Integrate the GitHub REST API to search public repositories and display user-selected details."
+    },
+    {
+      "day": 9,
+      "title": "Pomodoro Timer with Sounds",
+      "difficulty": "Easy",
+      "estimatedTime": "1.5 Hours",
+      "objective": "Build a timer with browser notification permissions and audio alerts for focus and break sessions."
+    },
+    {
+      "day": 10,
+      "title": "Recipe Finder API App",
+      "difficulty": "Medium",
+      "estimatedTime": "2 Hours",
+      "objective": "Connect to Edamam Recipe Search API to list food instructions matching filtered ingredients."
+    },
+    {
+      "day": 11,
+      "title": "Animated FAQ Accordion",
+      "difficulty": "Easy",
+      "estimatedTime": "1 Hour",
+      "objective": "Create a smooth, accessible accordion list with framer-motion collapsible sections."
+    },
+    {
+      "day": 12,
+      "title": "Weather Dashboard",
+      "difficulty": "Medium",
+      "estimatedTime": "2 Hours",
+      "objective": "Build a responsive weather dashboard using OpenWeather API.",
+      "learningOutcomes": [
+        "Responsive UI Layouts",
+        "REST API Integration",
+        "Asynchronous JavaScript",
+        "Graceful Error Handling"
+      ],
+      "checklist": [
+        { "id": "chk-ui", "text": "Create weather dashboard interface", "completed": true },
+        { "id": "chk-api", "text": "Connect to OpenWeather API", "completed": true },
+        { "id": "chk-search", "text": "Implement city search autocomplete", "completed": true },
+        { "id": "chk-load", "text": "Add a visual loading skeleton state", "completed": false },
+        { "id": "chk-resp", "text": "Optimize layout for 390px mobile viewports", "completed": false }
+      ],
+      "resources": [
+        { "name": "Documentation", "url": "https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API" },
+        { "name": "Figma Design", "url": "https://figma.com" },
+        { "name": "OpenWeather API", "url": "https://openweathermap.org/api" }
+      ],
+      "hint": "Use async/await for fetching API data and wrap it in a try/catch block to handle invalid city entries without crashing the app UI. Cache queries in sessionStorage if possible."
+    },
+    {
+      "day": 13,
+      "title": "Budget Tracker & Charts",
+      "difficulty": "Medium",
+      "estimatedTime": "2.5 Hours",
+      "objective": "Build a financial ledger app that charts expense allocations using custom SVGs."
+    },
+    {
+      "day": 14,
+      "title": "Markdown Previewer Panel",
+      "difficulty": "Medium",
+      "estimatedTime": "2 Hours",
+      "objective": "Create a split-pane markdown writing pad displaying formatted rich HTML side-by-side."
+    },
+    {
+      "day": 15,
+      "title": "Infinite Scroll Image Feed",
+      "difficulty": "Medium",
+      "estimatedTime": "3 Hours",
+      "objective": "Implement an infinite-scroll grid using Unsplash API and Intersection Observer."
+    }
+  ]
+}
